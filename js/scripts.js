@@ -47,6 +47,19 @@ $(document).ready(function() {
         });
     }
 
+    if( $(".carrer_slider").length > 0 ) {
+        $(".carrer_slider").not(".slick-initialized").slick({
+            dots: false,
+            arrows: true,
+            // autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true
+        });
+    }
+
     // --------------
 
     $(".respmenubtn").click(function(e) {
