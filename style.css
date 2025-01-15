@@ -562,7 +562,7 @@ textarea:focus {
     background-image: url(img/nav_tr_black.svg);
 }
 
-.nav_inline > div:after {
+.black .nav_inline > div:after {
     background: #000;
 }
 
